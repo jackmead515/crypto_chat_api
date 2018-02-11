@@ -1,0 +1,20 @@
+{
+  "name": "crypto_chat",
+  "version": "1.0.0",
+  "description": "A simple end-to-end encrypted chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "supervisor src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.2",
+    "express-status-monitor": "^1.0.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.4"
+  }
+}
